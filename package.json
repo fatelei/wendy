@@ -1,0 +1,31 @@
+{
+  "name": "wendy",
+  "version": "1.0.0",
+  "description": "make url more shorter",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/fatelei/wendy.git"
+  },
+  "keywords": [
+    "short",
+    "url"
+  ],
+  "author": "fatelei@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fatelei/wendy/issues"
+  },
+  "homepage": "https://github.com/fatelei/wendy",
+  "dependencies": {
+    "restify": "*",
+    "mysql": "*"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "request": "*"
+  }
+}

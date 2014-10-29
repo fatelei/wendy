@@ -1,0 +1,15 @@
+DROP DATABASE IF EXISTS wendy;
+
+CREATE DATABASE IF NOT EXISTS wendy DEFAULT CHARSET utf8;
+
+USE wendy;
+
+DROP TABLE IF EXISTS wendy; 
+
+CREATE TABLE IF NOT EXISTS wendy (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `hash` varchar(100) DEFAULT NULL,
+  `url` varchar(255) NOT NULL,
+  PRIMARY KEY (`id`),
+  KEY `hash` (`hash`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8;

@@ -1,0 +1,7 @@
+#!/usr/bin/env node
+
+var app = require('../wendy/app');
+
+app.listen(8000, function () {
+  console.info('Run at http://localhost:8000');
+});
